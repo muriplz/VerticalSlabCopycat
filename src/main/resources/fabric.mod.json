@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "verticalslabcopycat",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Vertical Slab Copycat",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "MuriPlz"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/muriplz/VerticalSlabCopycat"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/verticalslabcopycat/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.kryeit.verticalslabcopycat.VerticalSlabCopycat"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "verticalslabcopycat.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
