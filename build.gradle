@@ -14,9 +14,7 @@ targetCompatibility = JavaVersion.VERSION_17
 archivesBaseName = project.archives_base_name
 group = project.maven_group
 
-// Formats the mod version to include the Minecraft version and build number (if present)
-// example: 1.0.0+1.18.2-100
-version = "${mod_version}+${minecraft_version}"
+version = "${mod_version}"
 
 repositories {
 	maven { url = "https://maven.shedaniel.me/" } // Cloth Config, REI

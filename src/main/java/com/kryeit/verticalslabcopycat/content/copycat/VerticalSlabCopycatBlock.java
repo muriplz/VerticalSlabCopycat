@@ -67,7 +67,6 @@ public class VerticalSlabCopycatBlock extends WaterloggedCopycatBlock {
 			if (placementHelper.matchesItem(heldItem)) {
 				placementHelper.getOffset(player, world, state, pos, ray)
 						.placeInWorld(world, (BlockItem) heldItem.getItem(), player, hand, ray);
-				return InteractionResult.SUCCESS;
 			}
 		}
 
